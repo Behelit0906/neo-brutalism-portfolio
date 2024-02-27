@@ -38,7 +38,7 @@ function App() {
           Marcando la diferencia a través del código.
         </p>
       </section>
-      <section id='experiencia' className='w-full py-10 px-9 bg-[#FCDFFF] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]'>
+      <section id='experiencia' className='w-full py-10 px-5 sm:px-9 bg-[#FCDFFF] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]'>
         <h2 className="text-2xl font-bold mb-5">
           Experiencia
         </h2>
