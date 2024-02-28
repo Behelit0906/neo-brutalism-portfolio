@@ -10,7 +10,10 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoVue } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import HamburgerMenu from './components/HamburgerMenu';
-
+import Portrait from './components/Portrait';
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 function App() {
 
@@ -133,6 +136,49 @@ function App() {
         <h2 className="text-2xl font-bold mb-5">
           Sobre mi
         </h2>
+        <div>
+          <div className='mb-8 smm:float-right smm:ml-3 smm:mb-5'>
+            <Portrait />
+          </div>
+          <div className='text-sm text-balance'>
+            <p>¡Hola, soy Luis! 🚀</p> <br />
+            <p>
+              Soy Luis, un apasionado desarrollador web de corazón. Aunque aún no tenido mi primer empleo formal en el campo, mis 6 meses de prácticas universitarias como ingeniero de sistemas fueron un viaje emocionante en la automatización de tareas.
+            </p>
+            <br />
+            <p>
+              Usé mi habilidad con Python y librerías como Selenium para realizar scraping web, acceder a bases de datos y manipular archivos de Excel. Esta experiencia real me mostró cómo la tecnología impulsa la eficiencia en las operaciones diarias.
+            </p>
+            <br />
+            <p>
+              Desde entonces, mi pasión por el desarrollo web ha crecido exponencialmente. Aunque no tengo una lista interminable de proyectos, la resolución de problemas y la creatividad son mi enfoque constante.
+            </p>
+            <br />
+            <p className='mb-6'>
+              Si buscas a alguien con una base técnica sólida, motivado por los retos y listo para crecer, ¡aquí estoy! ¡Hagamos algo increíble juntos!
+            </p>
+            <div className='flex flex-wrap gap-2'>
+              <a 
+                href="mailto:luis.salcedo0906@gmail.com"
+                target='_blank'
+                className='flex items-center gap-1 px-3 py-1 border-2 border-black bg-[#DAF5F0] hover:shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+                <MdOutlineMailOutline className='inline' /> Contáctame
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/luis-salcedo-406895245/"
+                target='_blank'
+                className='flex items-center gap-1 px-3 py-1 border-2 border-black bg-[#DAF5F0] hover:shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+                <FaLinkedinIn className='inline' /> LinkedIn
+              </a>
+              <a 
+                href="https://github.com/Behelit0906"
+                target='_blank'
+                className='flex items-center gap-1 px-2 py-1 border-2 border-black bg-[#DAF5F0] hover:shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+                <FaGithub className='inline' /> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
   )
