@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         lexend: ['"Lexend Mega", sans-serif'],
+      },
+      screens: {
+        'smm': '480px'
       }
     },
   },
