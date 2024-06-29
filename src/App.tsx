@@ -7,8 +7,6 @@ import { SiExpress } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import ProjectCard from './components/ProjectCard';
 import { SiTypescript } from "react-icons/si";
-import { IoLogoVue } from "react-icons/io5";
-import { SiMysql } from "react-icons/si";
 import HamburgerMenu from './components/HamburgerMenu';
 import Portrait from './components/Portrait';
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -109,27 +107,15 @@ function App() {
           Habilidades
         </h2>
         <div className='flex justify-center flex-wrap gap-4 sm:gap-9 text-4xl border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)] py-5 px-3 md:p-9'>
-          <span className='flex items-center justify-center w-16 h-16 bg-[#69D2E7] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <SiTypescript />
+          <span className='flex items-center justify-center w-16 h-16 bg-white border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+            <SiTypescript  className='text-[#2F74C0]' />
           </span>
-          <span className='flex items-center justify-center w-16 h-16 bg-[#ff6b6b] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <FaReact /> 
+          <span className='flex items-center justify-center w-16 h-16 bg-white border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+            <FaReact className='text-[#087EA4]' /> 
           </span>
-          <span className='flex items-center justify-center w-16 h-16 bg-[#90e90e] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <IoLogoVue />
+          <span className='flex items-center justify-center w-16 h-16 bg-white border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
+            <SiTailwindcss className='text-[#38BDF8]' />
           </span> 
-          <span className='flex items-center justify-center w-16 h-16 bg-[#a388ee] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <SiTailwindcss />
-          </span> 
-          <span className='flex items-center justify-center w-16 h-16 bg-[#f8d6b3] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <SiExpress />
-          </span>
-          <span className='flex items-center justify-center w-16 h-16 bg-[#b5d2ad] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <DiMongodb />
-          </span>
-          <span className='flex items-center justify-center w-16 h-16 bg-[#fcdfff] border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,1)]'>
-            <SiMysql />
-          </span>             
         </div>
       </section>
       <section id='sobre mi' className='w-full py-10 px-5 sm:px-9 bg-[#FCDFFF] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]'>
