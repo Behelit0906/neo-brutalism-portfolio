@@ -77,29 +77,6 @@ function App() {
               }
             ]}
           />
-          <ProjectCard 
-            name="HiI'mJavier" 
-            img={javier}
-            description="HiI'mJavier es una plataforma web para conectar a Javier, tu guía turístico de confianza, con todos aquellos viajeros amantes de la historia en la ciudad de Santa Marta."
-            previewLink='https://javierproject-production.up.railway.app/'
-            technologies={[{ 
-                name: 'Nuxt', 
-                icon: <SiNuxtdotjs className='inline' /> 
-              },
-              {
-                name: 'Tailwind',
-                icon: <SiTailwindcss className='inline' />
-              },
-              {
-                name: 'Express',
-                icon: <SiExpress className='inline' />
-              },
-              {
-                name: 'MongoDB',
-                icon: <DiMongodb className='inline' />
-              }
-            ]}
-          />
         </div>
       </section>
       <section id='habilidades' className='w-full py-10 px-5 sm:px-9 bg-[#FDFD96] border-4 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]'>
