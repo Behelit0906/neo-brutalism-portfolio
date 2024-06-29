@@ -1,10 +1,6 @@
 import anime from './assets/anime.webp';
-import javier from './assets/javier.webp';
 import { FaReact } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
-import { SiNuxtdotjs } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { DiMongodb } from "react-icons/di";
 import ProjectCard from './components/ProjectCard';
 import { SiTypescript } from "react-icons/si";
 import HamburgerMenu from './components/HamburgerMenu';
